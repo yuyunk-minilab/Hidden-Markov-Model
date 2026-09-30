@@ -1,8 +1,8 @@
-# Hidden Markov Model (HMM)
+ Hidden Markov Model (HMM)
 
 Repository ini berisi implementasi dan contoh pembelajaran **Hidden Markov Model (HMM)** menggunakan Python. Materi mencakup konsep dasar HMM, perhitungan probabilitas observasi, **Forward Algorithm**, dan **Viterbi Algorithm** untuk menentukan hidden state yang paling mungkin.
 
-## 📌 About
+ 📌 About
 
 **Hidden Markov Model (HMM)** adalah model probabilistik yang digunakan untuk memodelkan sistem yang memiliki **state tersembunyi (hidden states)** yang menghasilkan serangkaian observasi.
 
@@ -23,7 +23,7 @@ HMM banyak digunakan dalam berbagai bidang, seperti:
 
 ---
 
-## 🎯 Learning Objectives
+ 🎯 Learning Objectives
 
 Setelah mempelajari repository ini, pengguna diharapkan mampu:
 
@@ -38,11 +38,11 @@ Setelah mempelajari repository ini, pengguna diharapkan mampu:
 
 ---
 
-## 🧩 Components of HMM
+ 🧩 Components of HMM
 
 Sebuah Hidden Markov Model terdiri dari beberapa komponen utama.
 
-### 1. Initial State Probability
+ 1. Initial State Probability
 
 Menunjukkan probabilitas sistem berada pada masing-masing hidden state pada waktu awal.
 
@@ -59,7 +59,7 @@ $$
 \pi = [0.6, 0.4]
 $$
 
-### 2. Transition Probability
+ 2. Transition Probability
 
 Menunjukkan probabilitas perpindahan dari satu hidden state ke hidden state lainnya.
 
